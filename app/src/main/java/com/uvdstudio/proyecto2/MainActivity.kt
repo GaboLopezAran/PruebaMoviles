@@ -28,8 +28,12 @@ class MainActivity : AppCompatActivity() {
         playerView.player = player
 
         // Configurar la fuente del medio
+<<<<<<< HEAD
+        val mediaItem = MediaItem.fromUri("https://ftp.nluug.nl/pub/graphics/blender/demo/movies/Sintel.2010.720p.mkv")
+=======
         val mediaItem = MediaItem.fromUri("https://3nvtw3l3ngz1d.pradoi.com/v/01/04709/emjcdztwo165_h/281532--b1f0edd8-e12c-467f-9ca6-65bc213674cf--yujp--2468939-streamwish.mp4?t=gCTe8i4Z7fa526AXA6e_gnEl_i5EUO" +
                 "S0l7rphw5QgNU&s=1724116085&e=129600&f=23545352&sp=400&i=0.0")
+>>>>>>> 650922fdb6f412e1306a990846775e009a9e8e3a
         player.setMediaItem(mediaItem)
 
         // Preparar y comenzar la reproducción
