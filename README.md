@@ -1,2 +1,0 @@
-# PruebaMoviles
-Prueba para moviles 
